@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
-@Document("tasks")
+@Document(collection = "tasks")
 public class Task {
     @Id
     private String id;

@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.Duration;
 
-@Document("jobs")
+@Document(collection = "jobs")
 public class Job {
     @Id
     private String id;
