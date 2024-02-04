@@ -11,7 +11,7 @@ public class Project {
     private String id;
     private String title;
     private String description;
-    private Date CreationDate;
+    private Date creationDate;
 
     public Project() {
     }
@@ -20,7 +20,7 @@ public class Project {
         this.id = id;
         this.title = title;
         this.description = description;
-        CreationDate = creationDate;
+        this.creationDate = creationDate;
     }
 
     public String getId() {
@@ -48,10 +48,10 @@ public class Project {
     }
 
     public Date getCreationDate() {
-        return CreationDate;
+        return creationDate;
     }
 
     public void setCreationDate(Date creationDate) {
-        CreationDate = creationDate;
+        this.creationDate = creationDate;
     }
 }
