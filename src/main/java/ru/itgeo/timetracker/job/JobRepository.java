@@ -1,4 +1,4 @@
-package ru.itgeo.job;
+package ru.itgeo.timetracker.job;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;

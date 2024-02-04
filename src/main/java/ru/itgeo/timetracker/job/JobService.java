@@ -1,8 +1,7 @@
-package ru.itgeo.job;
+package ru.itgeo.timetracker.job;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.itgeo.task.Task;
 
 import java.util.List;
 @Service

@@ -1,4 +1,4 @@
-package ru.itgeo.project;
+package ru.itgeo.timetracker.project;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

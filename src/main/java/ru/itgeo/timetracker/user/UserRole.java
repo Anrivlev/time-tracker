@@ -1,4 +1,4 @@
-package ru.itgeo.user;
+package ru.itgeo.timetracker.user;
 
 public enum UserRole {
     USER,

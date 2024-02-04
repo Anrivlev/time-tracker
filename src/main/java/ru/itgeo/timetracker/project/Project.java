@@ -1,4 +1,4 @@
-package ru.itgeo.project;
+package ru.itgeo.timetracker.project;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

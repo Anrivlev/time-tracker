@@ -1,4 +1,4 @@
-package ru.itgeo.task;
+package ru.itgeo.timetracker.task;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -20,7 +20,7 @@ public class TaskController {
         return this.taskService.getTask(projectId, id);
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "/tasks/{projectId}")
+    @RequestMapping(method = RequestMethod.POST, value = "/tasks/{projectId}")
     public Task saveTask(@PathVariable String projectId, @RequestBody Task task) {
         return this.taskService.saveTask(projectId, task);
     }
